@@ -1,3 +1,11 @@
+/* navbar  */
+
+document.querySelector('.manu').addEventListener('click', function () {
+  document.querySelectorAll('.target').forEach((item) => {
+    item.classList.toggle('change');
+  });
+});
+
 let icons = document.querySelectorAll('.section-1-icons i');
 
 let i = 1;
